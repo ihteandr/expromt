@@ -1,0 +1,44 @@
+.App {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+.Messages {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow-y: auto;
+  padding: 0 10px;
+  height: calc(100% - 70px);
+  position: relative;
+}
+.SendingMessageLabel {
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+  background-color: skyblue;
+}
+.Message {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+}
+.Input {
+  display: flex;
+  padding: 10px;
+  height: 70px;
+}
+.Input input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+.Input button {
+  padding: 10px;
+  font-size: 16px;
+}
